@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Room : MonoBehaviour
+public class Room
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector2 gridPosition;
 
-    // Update is called once per frame
-    void Update()
+    public int roomType;
+
+    public bool doorNorth;
+    public bool doorEast;
+    public bool doorSouth;
+    public bool doorWest;
+
+    public Room(Vector2 gridPos, int type)
     {
-        
+        gridPosition = gridPos;
+        roomType = type;
     }
 }
