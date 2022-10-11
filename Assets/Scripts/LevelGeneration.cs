@@ -123,7 +123,9 @@ public class LevelGeneration : MonoBehaviour
             drawPosition.x *= 10;
             drawPosition.y *= 10;
 
+            //MapSpriteSelector mapper;
             MapSpriteSelector mapper = Object.Instantiate(roomObj, drawPosition, Quaternion.identity).GetComponent<MapSpriteSelector>();
+           
             mapper.type = room.roomType;
             mapper.north = room.doorNorth;
             mapper.south = room.doorSouth;
