@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1105994461738936537}
   - component: {fileID: 5946557201921094049}
   - component: {fileID: 4782023734909678354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4433469914046107722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WestRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 5955029676574143262}
   - component: {fileID: 8278957727266447007}
   - component: {fileID: 4967797666675981579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

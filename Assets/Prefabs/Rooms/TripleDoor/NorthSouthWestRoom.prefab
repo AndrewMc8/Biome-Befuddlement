@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6477746477439147499}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NorthSouthWestRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 3947350702909144767}
   - component: {fileID: 1623417150702408510}
   - component: {fileID: 2347049218447356074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 7726494046732576120}
   - component: {fileID: 3955610972019358720}
   - component: {fileID: 2755750232386109107}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 6296801049377373869}
   - component: {fileID: 7026206469445866706}
   - component: {fileID: 2951471272925116182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 227320090501250495}
   - component: {fileID: 3084468481961102100}
   - component: {fileID: 2521972147703148346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

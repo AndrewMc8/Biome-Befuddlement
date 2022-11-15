@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6113612550462456887}
   - component: {fileID: 9024734189611889308}
   - component: {fileID: 8435145472771610290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1014968297868878947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NorthEastRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 7005277611236788023}
   - component: {fileID: 4717513049687812790}
   - component: {fileID: 8602460812174690594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 4380442461397834992}
   - component: {fileID: 6995593715290228104}
   - component: {fileID: 8200514440796260155}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}

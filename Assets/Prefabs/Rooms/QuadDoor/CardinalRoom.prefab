@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9208382888329318553}
   - component: {fileID: 6206838409326716466}
   - component: {fileID: 6778758936955912732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 3138901365631521675}
   - component: {fileID: 2120980567206541812}
   - component: {fileID: 6059767451657034288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 1717877508615899230}
   - component: {fileID: 5334516098083361062}
   - component: {fileID: 6544646307466154901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 5344342932890375065}
   - component: {fileID: 7668130792461155864}
   - component: {fileID: 6665118318731255180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2668577400807829709}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CardinalRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 907267318239266605}
   - component: {fileID: 8339528787766551008}
   - component: {fileID: 6507533666739864431}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoorEntrance (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

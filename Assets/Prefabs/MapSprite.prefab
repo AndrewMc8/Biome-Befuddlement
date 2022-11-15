@@ -46,28 +46,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c01141e1ecdaa48ada879c472f0d1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mN: {fileID: 0}
-  mE: {fileID: 0}
-  mS: {fileID: 0}
-  mW: {fileID: 0}
-  mNE: {fileID: 0}
-  mNS: {fileID: 0}
-  mNW: {fileID: 0}
-  mSE: {fileID: 0}
-  mSW: {fileID: 0}
-  mEW: {fileID: 0}
-  mNES: {fileID: 0}
-  mNEW: {fileID: 0}
-  mNSW: {fileID: 0}
-  mESW: {fileID: 0}
-  mNESW: {fileID: 0}
+  mN: {fileID: 913263411832488246, guid: a8d1471b01e2fcf47898139c75ca010f, type: 3}
+  mE: {fileID: 6662328429566634514, guid: bcdf7b84f3c5e304eabf2229ee8e2985, type: 3}
+  mS: {fileID: 8769142399960414353, guid: bf09e62967eb3ff48a502aa5378b2562, type: 3}
+  mW: {fileID: 8492801956033753666, guid: bb6b1c74807023649aaeade062488145, type: 3}
+  mNE: {fileID: 5066342110131258987, guid: 053e165d6ac4da74096d6f0ee96681f1, type: 3}
+  mNS: {fileID: 3219680734885493521, guid: 3c3b63ac8241fb446a8962597717d92f, type: 3}
+  mNW: {fileID: 8436025154701598758, guid: f9acfb1cecf75844882f290f1aa282ff, type: 3}
+  mSE: {fileID: 5928701791782970282, guid: 39919a4c7fafc194285f8896c1ce4b64, type: 3}
+  mSW: {fileID: 1461277977355648948, guid: 797331255a09c714f8df9340b9cf776e, type: 3}
+  mEW: {fileID: 7086622746313759265, guid: 88fbd7a634066c94cb8a0ea2ba56067e, type: 3}
+  mNES: {fileID: 5809992128697887145, guid: d931c651fc41816429c45925e46fb677, type: 3}
+  mNEW: {fileID: 452127778538451813, guid: 7292b32788a37f041b459586d529f67c, type: 3}
+  mNSW: {fileID: 1278797021678387171, guid: 72c7d1d0e30a85040b0e367b1f4404b1, type: 3}
+  mESW: {fileID: 3600182977632756649, guid: 1660cad7405c6684d97dae7f47282ddb, type: 3}
+  mNESW: {fileID: 7877382911957324485, guid: bd4db782ad7d97b40b69d6176ea09a16, type: 3}
   north: 0
   east: 0
   south: 0
   west: 0
   type: 0
-  normalColor: {fileID: 0}
-  enterColor: {fileID: 0}
+  normalColor: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  enterColor: {fileID: 2100000, guid: 379b86136c53d824bac6ec8a12eea27c, type: 2}
 --- !u!23 &7640808394906705956
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -117,4 +117,4 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7640808394906705959}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
