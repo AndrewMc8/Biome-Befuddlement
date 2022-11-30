@@ -2,16 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
     [SerializeField] int numberOfDigits;
-    private string correctCode = "";
+    private string correctNumberCode = "";
+    private string correctColorCode = "";
+
+    public void LoadScene(int sceneNumber)
+    {
+        SceneManager.LoadScene(sceneNumber);
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         setNumberCode();
+        setColorCode();
     }
 
     // Update is called once per frame
@@ -47,12 +55,12 @@ public class GameManager : Singleton<GameManager>
             text = text + numbers[i].ToString();
         }
 
-        correctCode = text;
+        correctNumberCode = text;
     }
 
     public string GetNumberCode()
     {
-        return correctCode;
+        return correctNumberCode;
     }
 
     public void setColorCode()
@@ -111,11 +119,11 @@ public class GameManager : Singleton<GameManager>
             }
         }
 
-        correctCode = text;
+        correctColorCode = text;
     }
 
     public string GetColorCode()
     {
-        return correctCode;
+        return correctColorCode;
     }
 }

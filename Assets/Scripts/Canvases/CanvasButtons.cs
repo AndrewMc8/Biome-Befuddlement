@@ -14,7 +14,12 @@ public class CanvasButtons : MonoBehaviour
     [SerializeField] GameObject button2;
     [SerializeField] GameObject button3;
 
+    [SerializeField] GameObject woodKey;
+    [SerializeField] GameObject stoneKey;
+
     [SerializeField] CanvasNumberScript answer;
+
+    [SerializeField] AudioSource source;
 
     int colorTemp1;
     int colorTemp2;
@@ -65,15 +70,22 @@ public class CanvasButtons : MonoBehaviour
                 break;
         }
         CheckCorrectNumber();
+
+        source.Play();
     }
 
+    string tempText1 = "W";
+    string tempText2 = "W";
+    string tempText3 = "W";
     public void OnBtnPressColor(int buttonColor)
     {
         Color orange = new Color(1, 0.5f, 0);
         Color indigo = new Color(0.29f, 0, 0.51f);
-        Color violet = new Color(0.93f, 0.51f, 0.93f);
+        Color violet = new Color(0.61f, 0.15f, 0.71f);
         Color purple = new Color(0.63f, 0.13f, 0.94f);
         Color brown = new Color(0.59f, 0.29f, 0);
+
+        string output = "";
 
 
         switch (buttonColor)
@@ -88,42 +100,52 @@ public class CanvasButtons : MonoBehaviour
                 if (colorTemp1 == 0)
                 {
                     button1.GetComponent<Image>().color = Color.red;
+                    tempText1 = "R";
                 }
                 else if (colorTemp1 == 1)
                 {
                     button1.GetComponent<Image>().color = orange;
+                    tempText1 = "O";
                 }
                 else if (colorTemp1 == 2)
                 {
                     button1.GetComponent<Image>().color = Color.yellow;
+                    tempText1 = "Y";
                 }
                 else if (colorTemp1 == 3)
                 {
                     button1.GetComponent<Image>().color = Color.green;
+                    tempText1 = "G";
                 }
                 else if (colorTemp1 == 4)
                 {
                     button1.GetComponent<Image>().color = Color.blue;
+                    tempText1 = "B";
                 }
                 else if (colorTemp1 == 5)
                 {
                     button1.GetComponent<Image>().color = indigo;
+                    tempText1 = "I";
                 }
                 else if (colorTemp1 == 6)
                 {
                     button1.GetComponent<Image>().color = violet;
+                    tempText1 = "V";
                 }
                 else if (colorTemp1 == 7)
                 {
                     button1.GetComponent<Image>().color = Color.white;
+                    tempText1 = "W";
                 }
                 else if (colorTemp1 == 8)
                 {
                     button1.GetComponent<Image>().color = purple;
+                    tempText1 = "P";
                 }
                 else if (colorTemp1 == 9)
                 {
                     button1.GetComponent<Image>().color = brown;
+                    tempText1 = "Br";
                 }
 
                 break;
@@ -136,43 +158,53 @@ public class CanvasButtons : MonoBehaviour
 
                 if (colorTemp2 == 0)
                 {
-                    button1.GetComponent<Image>().color = Color.red;
+                    button2.GetComponent<Image>().color = Color.red;
+                    tempText2 = "R";
                 }
                 else if (colorTemp2 == 1)
                 {
-                    button1.GetComponent<Image>().color = orange;
+                    button2.GetComponent<Image>().color = orange;
+                    tempText2 = "O";
                 }
                 else if (colorTemp2 == 2)
                 {
-                    button1.GetComponent<Image>().color = Color.yellow;
+                    button2.GetComponent<Image>().color = Color.yellow;
+                    tempText2 = "Y";
                 }
                 else if (colorTemp2 == 3)
                 {
-                    button1.GetComponent<Image>().color = Color.green;
+                    button2.GetComponent<Image>().color = Color.green;
+                    tempText2 = "G";
                 }
                 else if (colorTemp2 == 4)
                 {
-                    button1.GetComponent<Image>().color = Color.blue;
+                    button2.GetComponent<Image>().color = Color.blue;
+                    tempText2 = "B";
                 }
                 else if (colorTemp2 == 5)
                 {
-                    button1.GetComponent<Image>().color = indigo;
+                    button2.GetComponent<Image>().color = indigo;
+                    tempText2 = "I";
                 }
                 else if (colorTemp2 == 6)
                 {
-                    button1.GetComponent<Image>().color = violet;
+                    button2.GetComponent<Image>().color = violet;
+                    tempText2 = "V";
                 }
                 else if (colorTemp2 == 7)
                 {
-                    button1.GetComponent<Image>().color = Color.white;
+                    button2.GetComponent<Image>().color = Color.white;
+                    tempText2 = "W";
                 }
                 else if (colorTemp2 == 8)
                 {
-                    button1.GetComponent<Image>().color = purple;
+                    button2.GetComponent<Image>().color = purple;
+                    tempText2 = "P";
                 }
                 else if (colorTemp2 == 9)
                 {
-                    button1.GetComponent<Image>().color = brown;
+                    button2.GetComponent<Image>().color = brown;
+                    tempText2 = "Br";
                 }
 
                 break;
@@ -185,50 +217,64 @@ public class CanvasButtons : MonoBehaviour
 
                 if (colorTemp3 == 0)
                 {
-                    button1.GetComponent<Image>().color = Color.red;
+                    button3.GetComponent<Image>().color = Color.red;
+                    tempText3 = "R";
                 }
                 else if (colorTemp3 == 1)
                 {
-                    button1.GetComponent<Image>().color = orange;
+                    button3.GetComponent<Image>().color = orange;
+                    tempText3 = "O";
                 }
                 else if (colorTemp3 == 2)
                 {
-                    button1.GetComponent<Image>().color = Color.yellow;
+                    button3.GetComponent<Image>().color = Color.yellow;
+                    tempText3 = "Y";
                 }
                 else if (colorTemp3 == 3)
                 {
-                    button1.GetComponent<Image>().color = Color.green;
+                    button3.GetComponent<Image>().color = Color.green;
+                    tempText3 = "G";
                 }
                 else if (colorTemp3 == 4)
                 {
-                    button1.GetComponent<Image>().color = Color.blue;
+                    button3.GetComponent<Image>().color = Color.blue;
+                    tempText3 = "B";
                 }
                 else if (colorTemp3 == 5)
                 {
-                    button1.GetComponent<Image>().color = indigo;
+                    button3.GetComponent<Image>().color = indigo;
+                    tempText3 = "I";
                 }
                 else if (colorTemp3 == 6)
                 {
-                    button1.GetComponent<Image>().color = violet;
+                    button3.GetComponent<Image>().color = violet;
+                    tempText3 = "V";
                 }
                 else if (colorTemp3 == 7)
                 {
-                    button1.GetComponent<Image>().color = Color.white;
+                    button3.GetComponent<Image>().color = Color.white;
+                    tempText3 = "W";
                 }
                 else if (colorTemp3 == 8)
                 {
-                    button1.GetComponent<Image>().color = purple;
+                    button3.GetComponent<Image>().color = purple;
+                    tempText3 = "P";
                 }
                 else if (colorTemp3 == 9)
                 {
-                    button1.GetComponent<Image>().color = brown;
+                    button3.GetComponent<Image>().color = brown;
+                    tempText3 = "Br";
                 }
 
                 break;
             default:
                 break;
         }
-        CheckCorrectColor();
+        output = tempText1 + tempText2 + tempText3;
+
+        CheckCorrectColor(output);
+
+        source.Play();
     }
 
     public void CheckCorrectNumber()
@@ -239,6 +285,8 @@ public class CanvasButtons : MonoBehaviour
         if (attempt.Equals(correct))
         {
             Debug.Log("Correct");
+            Instantiate(woodKey, transform.position, transform.rotation);
+            Destroy(gameObject.transform.parent.gameObject);
         }
         else
         {
@@ -246,14 +294,16 @@ public class CanvasButtons : MonoBehaviour
         }
     }
 
-    public void CheckCorrectColor()
+    public void CheckCorrectColor(string input)
     {
-        string attempt = textOne.text + textTwo.text + textThree.text;
+        string attempt = input;
         string correct = GameManager.Instance.GetColorCode();
         Debug.Log("Attempt: " + attempt + " Correct: " + correct);
         if (attempt.Equals(correct))
         {
             Debug.Log("Correct");
+            Instantiate(stoneKey, transform.position, transform.rotation);
+            Destroy(gameObject.transform.parent.gameObject);
         }
         else
         {

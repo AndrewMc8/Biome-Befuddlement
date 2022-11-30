@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Singleton<Player>
 {
     [SerializeField] float moveSpeed;
 
     [SerializeField] float groundDrag;
+
+    public bool woodKey;
+    public bool stoneKey;
 
     public float playerHeight;
     public LayerMask whatIsGrounded;
